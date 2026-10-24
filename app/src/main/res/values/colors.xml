@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colori di sistema Android Studio (lasciali, non li usiamo) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ═══════════════════════════════════════════════════════
+         COLORI PERSONALIZZATI DELL'APP
+         ═══════════════════════════════════════════════════════ -->
+    <!-- Sfondo principale (giallo limone) -->
+    <color name="giallo_app">#DCE44E</color>
+
+    <!-- Colore primario (turchese: pulsanti, titoli, accenti) -->
+    <color name="turchese">#19A7A7</color>
+
+    <!-- Colori delle card -->
+    <color name="card_verde">#B8E0D8</color>
+    <color name="card_lilla">#E6D8F0</color>
+    <color name="card_giallo">#FFF3C4</color>
+    <color name="card_rosa">#A87D7D</color>
+
+    <!-- Colori dei testi -->
+    <color name="testo_scuro">#1F1F1F</color>
+    <color name="testo_grigio">#757575</color>
+    <color name="testo_titolo_card">#1F4E45</color>
+
+    <!-- Colori dei banner -->
+    <color name="banner_screening_bg">#A87D7D</color>
+    <color name="banner_screening_testo">#B00020</color>
+    <color name="banner_permesso_bg">#FFF3E0</color>
+    <color name="banner_permesso_testo">#E65100</color>
+    <color name="banner_pulsante_bg">#00B8D4</color>
+</resources>

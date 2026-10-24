@@ -1,0 +1,77 @@
+<resources>
+    <!-- Nome dell'app (visibile nel launcher e citato nei testi) -->
+    <string name="app_name">SiestaApp</string>
+    <string name="info_name">Ricevi chiamate solo dai tuoi contatti</string>
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         BANNER: filtro non attivo
+         ═══════════════════════════════════════════════════════ -->
+    <string name="screening_a">⚠️ Filtro non attivo</string>
+    <string name="screening_b">Per funzionare &#160;</string>
+    <string name="screening_b1">&#160; deve essere autorizzata come filtro chiamate dal sistema. Tocca il pulsante e autorizza.</string>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SCHERMATA INFO: titolo TopBar
+         ═══════════════════════════════════════════════════════ -->
+    <string name="info_titolo">Info</string>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SCHERMATA INFO: titoli delle Card
+         ═══════════════════════════════════════════════════════ -->
+    <string name="info_card_istruzioni_titolo">📖  Il progetto</string>
+    <string name="info_card_ringraziamenti_titolo">💚  Ringraziamenti</string>
+    <string name="info_card_app_titolo">ℹ️  Info sull\'app</string>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SCHERMATA INFO: Card Ringraziamenti
+         ═══════════════════════════════════════════════════════ -->
+    <string name="info_ringraziamenti">Grazie alle 3 chiamate da numeri sconosciuti che mi hanno disturbato mentre facevo la \"siesta\" pomeridiana che ho avuto l\'idea del progetto \"</string>
+    <string name="info_ringraziamenti_1">\".</string>
+    <string name="info_ringraziamenti_2">\n Grazie all\'IA ✨ (in particolare 🐋DeepSeek) che sotto le mie direttive e richieste ha scritto il codice, da cui io apprendo con curiosità e pazienza come funziona Android.\n\nGrazie a chi usa &#160;</string>
+    <string name="info_ringraziamenti_3"> &#160; e protegge la propria tranquillità, perché il riposo è un diritto, non un lusso.</string>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SCHERMATA INFO: Card Info sull'app
+         (info_nome è spezzata in 3 parti per mettere in grassetto il nome app)
+         ═══════════════════════════════════════════════════════ -->
+    <string name="info_nome_p1">Nome:&#160; </string>
+    <string name="info_nome_p3"></string>
+    <string name="info_versione">Versione:  1.0</string>
+    <string name="info_autore">Autore:  Franchino</string>
+    <string name="info_anno">Anno:  2026</string>
+    <string name="info_privacy">Questa app non raccoglie né invia dati personali. Tutte le informazioni (numeri autorizzati, chiamate bloccate) restano sul tuo dispositivo.</string>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SCHERMATA INFO: Card Istruzioni
+         (istr_2 è spezzata in 3 parti per mettere in grassetto il nome app)
+         ═══════════════════════════════════════════════════════ -->
+    <string name="istr_1_titolo">1. Presentazione</string>
+    <string name="istr_1_testo"> &#160; è pensata per stabilire i momenti della giornata che non vuoi essere disturbato da \"numeri sconosciuti\". Cosa fa: se è in funzione si attiva il FILTRO sulle chiamate in arrivo e fa passare solo quelle che provengono da numeri che hai in rubrica.</string>
+
+    <string name="istr_2_titolo">2. Permessi e autorizzazioni</string>
+    <string name="istr_2_p1">Per poter funzionare correttamente, è necessario concedere i permessi richiesti dopo l\'installazione - Accesso ai contatti - Autorizza le Notifica - tocca \"Attiva ora\" (nell\'app) per autorizzare il filtro alla gestione delle chiamate. &#160; </string>
+    <string name="istr_2_p3"> &#160; senza questi permessi non ha possibilità di riconoscere i contatti in rubrica, il filtro non funzionerà.</string>
+
+    <string name="istr_3_titolo">3. Uso</string>
+    <string name="istr_3_testo">Dopo aver concesso i permessi per attivare il filtro tocca lo switch \"Filtro disattivato". Ricevi una notifica e da questo momento il Filtro è attivo, lo smartphone suonerà solo se ricevi chiamate dai tuoi contatti. Per disattivare il filtro tocca lo switch \"Filtro Attivo\" e scompare anche la notifica. La notifica ti segnale che &#160; </string>
+    <string name="istr_3_testo_1">&#160; è in funzione anche in background e da questa puoi disabilitare o portare l\'app in primo piano.</string>
+
+    <string name="istr_4_titolo">4. Programmazione oraria (opzionale)</string>
+    <string name="istr_4_testo">Attiva: \"Tutto il giorno\" per filtrare 24 ore su 24. Attiva: \"Programmazione oraria\" se vuoi che il filtro agisca solo in una fascia oraria specifica (es. 14:00 – 16:00). N.B.: Se la programmazione è spenta, il filtro resta sempre attivo.</string>
+
+    <string name="istr_5_titolo">5. Numeri autorizzati</string>
+    <string name="istr_5_testo">Aggiungi qui i numeri che devono passare anche se NON sono in rubrica (es. medico, corriere, idraulico). Puoi aggiungere, modificare ed eliminare ogni voce.</string>
+
+    <string name="istr_6_titolo">6. Chiamate bloccate</string>
+    <string name="istr_6_testo">Qui trovi l\'elenco delle chiamate bloccate, con numero e data/ora. Puoi toccare una voce per richiamare il numero, oppure eliminarla singolarmente o svuotare tutto il registro.</string>
+
+    <string name="istr_7_titolo">🔒  Privacy</string>
+    <string name="istr_7_testo"> - </string>
+    <string name="istr_7_testo_1"> &#160; usa solo il permesso per leggere i contatti e quello per effettuare chiamate dal registro. Nessun dato viene inviato fuori dal tuo dispositivo.</string>
+
+    <!-- ═══════════════════════════════════════════════════════
+         FOOTER
+         ═══════════════════════════════════════════════════════ -->
+    <string name="powered_by">Powered by Franchino © 2026</string>
+</resources>
